@@ -1,0 +1,3 @@
+C:\Mahesh_App\ForTraining\Apps\BCS\MyBCS\MyBCS\bin\Debug\MyBCS.pdb
+C:\Mahesh_App\ForTraining\Apps\BCS\MyBCS\MyBCS\obj\Debug\MyBCS.dll
+C:\Mahesh_App\ForTraining\Apps\BCS\MyBCS\MyBCS\obj\Debug\MyBCS.pdb

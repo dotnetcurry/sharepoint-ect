@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompanyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ExpensesDetail">
+    <Key>
+      <PropertyRef Name="ReportId" />
+    </Key>
+    <Property Name="ReportId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SubmittedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RegionName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SalesTarget" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="SalesAchieved" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="SalesDifference" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Expenses" Type="Int32" Nullable="false" />
+    <Property Name="Approved" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="CompanyEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ExpensesDetails" EntityType="Self.ExpensesDetail" />
+  </EntityContainer>
+</Schema>

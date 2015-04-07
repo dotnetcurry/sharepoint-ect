@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Url="Lists/ExpensesDetails" Description="ExpensesDetails" OnQuickLaunch="TRUE" Title="ExpensesDetails">
+    <DataSource>
+      <Property Name="LobSystemInstance" Value="ExpensesDetailsExternal" />
+      <Property Name="EntityNamespace" Value="CompanyModel" />
+      <Property Name="Entity" Value="ExpensesDetails" />
+      <Property Name="SpecificFinder" Value="ReadSpecificExpensesDetail" />
+      <Property Name="MetadataCatalogFileName" Value="BDCMetadata.bdcm" />
+    </DataSource>
+  </ListInstance>
+</Elements>

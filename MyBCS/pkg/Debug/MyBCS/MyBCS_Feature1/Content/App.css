@@ -1,0 +1,9 @@
+﻿/* Place custom styles below */
+#dvListView {
+ height:400px;
+ width:1000px;
+ overflow-y:visible;
+}
+#tblListView {
+ border:double;
+}
